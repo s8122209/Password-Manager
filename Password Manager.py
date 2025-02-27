@@ -25,6 +25,7 @@ def viewcreds():
     if os.path.getsize("PasswordManager.txt") == 0:
         print("No credentials saved.")
     else:
+        print("Login Credentials:")
         f = open("PasswordManager.txt", "r")
         print(f.read())
         f.close()    
