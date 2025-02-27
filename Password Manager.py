@@ -5,9 +5,6 @@ try:
     #create a file to store credentials if it doesnt exist
     f = open("PasswordManager.txt", "x")
     f.close()
-    f = open("PasswordManager.txt", "w")
-    f.write("Login Credentials:\n")
-    f.close()
 except:
     pass
 
