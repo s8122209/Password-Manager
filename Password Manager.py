@@ -15,11 +15,11 @@ play = True
 
 def addcreds():
     #Add new credentials
-    email = input("Enter your email: ")
+    user = input("Enter your username: ")
     password = input("Enter your password: ")
     url = input("Enter your URL/Resource: ")
     f = open("PasswordManager.txt", "a")                                                                                           
-    f.write(f"Email: {email} Password: {password} URL/Resource: {url}\n")
+    f.write(f"Username: {user} Password: {password} URL/Resource: {url}\n")
     f.close()
     print("Credentials saved.")
     
